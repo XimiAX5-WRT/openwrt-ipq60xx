@@ -66,7 +66,7 @@ define Device/redmi_ax5-jdcloud
 	$(call Device/EmmcImage)
 	DEVICE_VENDOR := Redmi
 	DEVICE_MODEL := AX5 JDCloud
-	DEVICE_DTS_CONFIG := config@cp03-c1
+	DEVICE_DTS_CONFIG := config@cp03-c2
 	SOC := ipq6018
 	DEVICE_PACKAGES := ipq-wifi-redmi_ax5-jdcloud
 endef
