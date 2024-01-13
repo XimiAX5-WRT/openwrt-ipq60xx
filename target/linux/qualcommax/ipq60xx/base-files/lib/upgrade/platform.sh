@@ -140,6 +140,18 @@ platform_do_upgrade() {
 	linksys,mr7350)
 		linksys_do_upgrade "$1"
 		;;
+	glinet,gl-axt1800|\
+	glinet,gl-ax1800|\
+	redmi,ax5|\
+	xiaomi,ax1800)
+		nand_do_upgrade "$1"
+		;;
+	jdc,ax1800-pro|\
+	redmi,ax5-jdcloud)
+		kernelname="0:HLOS"
+		rootfsname="rootfs"
+		mmc_do_upgrade "$1"
+		;;
 	*)
 		default_do_upgrade "$1"
 		;;
