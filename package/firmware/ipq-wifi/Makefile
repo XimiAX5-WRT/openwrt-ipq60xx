@@ -5,9 +5,9 @@ PKG_NAME:=ipq-wifi
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL=https://github.com/bkspc/firmware_qca-wireless.git
-PKG_SOURCE_DATE:=2023-11-30
-PKG_SOURCE_VERSION:=2f2559d0f77f42a59643256b664d63faf7e2322c
+PKG_SOURCE_URL=https://github.com/XimiAX5-WRT/firmware_qca-wireless.git
+PKG_SOURCE_DATE:=2024-01-12
+PKG_SOURCE_VERSION:=6c5b696695d30b295f2c5fc4dcb5a35a0369a711
 
 PKG_FLAGS:=nonshared
 
